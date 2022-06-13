@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Coffee_Machine.Coffee_Machine-task-build-classes-java.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-classes-kotlin.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-reports-tests.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-test-results.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task-build-tmp.main" target="11" />
+      <module name="Coffee_Machine.Coffee_Machine-task.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-Comparing_sums.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-Get_last_digit.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-Return_type.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-The_square_of_a_number.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-Theory.main" target="11" />
+      <module name="Coffee_Machine.Topics-Declaring_functions-Vowel_or_not.main" target="11" />
+      <module name="Coffee_Machine.Topics-Integers_in_action-Good_rest_on_vacation.main" target="11" />
+      <module name="Coffee_Machine.Topics-Integers_in_action-Theory.main" target="11" />
+      <module name="Coffee_Machine.Topics-Integers_in_action-Time_format.main" target="11" />
+      <module name="Coffee_Machine.Topics-Ranges-At_least_one.main" target="11" />
+      <module name="Coffee_Machine.Topics-Ranges-Between_two_numbers.main" target="11" />
+      <module name="Coffee_Machine.Topics-Ranges-Not_in_range.main" target="11" />
+      <module name="Coffee_Machine.Topics-Ranges-Theory.main" target="11" />
+      <module name="Coffee_Machine.Topics-Ranges-Within_both_ranges.main" target="11" />
+      <module name="Coffee_Machine.Topics-When_expression-Harry_Potter.main" target="11" />
+      <module name="Coffee_Machine.Topics-When_expression-Just_checking.main" target="11" />
+      <module name="Coffee_Machine.Topics-When_expression-Shape.main" target="11" />
+      <module name="Coffee_Machine.Topics-When_expression-Strings_as_objects.main" target="11" />
+      <module name="Coffee_Machine.Topics-When_expression-Theory.main" target="11" />
+      <module name="Coffee_Machine.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
