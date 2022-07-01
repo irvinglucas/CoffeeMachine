@@ -108,6 +108,8 @@ topics:
     theory_id: 16547
   - title: The big O notation
     theory_id: 16699
+  - title: Best, average and worst cases
+    theory_id: 20084
   - title: Data structures
     theory_id: 16927
   - title: The concept of patterns
@@ -140,12 +142,12 @@ topics:
     theory_id: 17116
   - title: Nested and inner classes
     theory_id: 14723
+  - title: Introduction to software architecture
+    theory_id: 15368
   - title: Encapsulation
     theory_id: 8519
   - title: Properties accessors
     theory_id: 10511
-  - title: Introduction to software architecture
-    theory_id: 15368
   - title: Design principles
     theory_id: 8956
   - title: Single Responsibility Principle
