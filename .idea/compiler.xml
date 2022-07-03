@@ -10,6 +10,13 @@
       <module name="Coffee_Machine.Coffee_Machine-task-build-test-results.main" target="11" />
       <module name="Coffee_Machine.Coffee_Machine-task-build-tmp.main" target="11" />
       <module name="Coffee_Machine.Coffee_Machine-task.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Boolean_variables.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Expressions.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Go_to_the_store.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Invitations_and_gifts.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Peirce's_arrow.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Program_a_Boolean_function.main" target="11" />
+      <module name="Coffee_Machine.Topics-Boolean_and_logical_operations-Theory.main" target="11" />
       <module name="Coffee_Machine.Topics-Constructors-Implicit_constructor.main" target="11" />
       <module name="Coffee_Machine.Topics-Constructors-Init_usage.main" target="11" />
       <module name="Coffee_Machine.Topics-Constructors-Pets.main" target="11" />
@@ -65,6 +72,12 @@
       <module name="Coffee_Machine.Topics-Nested_and_inner_classes-Theory.main" target="11" />
       <module name="Coffee_Machine.Topics-Nested_and_inner_classes-Why_do_we_need_inner_classes.main" target="11" />
       <module name="Coffee_Machine.Topics-Nested_and_inner_classes-Your_vehicle.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-City_population.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-Correct_overriding.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-Field_access.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-Mutable_state.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-Property_syntax.main" target="11" />
+      <module name="Coffee_Machine.Topics-Properties_accessors-Theory.main" target="11" />
       <module name="Coffee_Machine.Topics-Ranges-At_least_one.main" target="11" />
       <module name="Coffee_Machine.Topics-Ranges-Between_two_numbers.main" target="11" />
       <module name="Coffee_Machine.Topics-Ranges-Not_in_range.main" target="11" />
