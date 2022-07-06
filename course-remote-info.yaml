@@ -22,7 +22,7 @@ stages:
   is_completed: true
 - id: 365
   step: 5664
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Computer programming
@@ -104,16 +104,6 @@ topics:
   - title: While loops
     theory_id: 4659
   5:
-  - title: Computer algorithms
-    theory_id: 16547
-  - title: The big O notation
-    theory_id: 16699
-  - title: Best, average and worst cases
-    theory_id: 20084
-  - title: Data structures
-    theory_id: 16927
-  - title: The concept of patterns
-    theory_id: 3611
   - title: Introduction to OOP
     theory_id: 3614
   - title: Objects
@@ -130,35 +120,9 @@ topics:
     theory_id: 10740
   - title: Member functions
     theory_id: 6364
-  - title: Pseudocode
-    theory_id: 15090
-  - title: Pseudocode basics
-    theory_id: 19510
-  - title: Stack
-    theory_id: 5252
-  - title: Call stack
-    theory_id: 11550
-  - title: Scopes
-    theory_id: 17116
-  - title: Nested and inner classes
-    theory_id: 14723
-  - title: Introduction to software architecture
-    theory_id: 15368
   - title: Encapsulation
     theory_id: 8519
-  - title: Properties accessors
+  - title: Property accessors
     theory_id: 10511
-  - title: Design principles
-    theory_id: 8956
-  - title: Single Responsibility Principle
-    theory_id: 8963
-  - title: Object declarations
-    theory_id: 10698
-  - title: Companion object
-    theory_id: 10707
   - title: Enum
     theory_id: 6245
-  - title: Introduction to creational patterns
-    theory_id: 16251
-  - title: Singleton
-    theory_id: 16469
