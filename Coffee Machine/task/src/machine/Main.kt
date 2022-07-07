@@ -4,19 +4,16 @@ import kotlin.system.exitProcess
 
 // espresso needed resources
 const val ESPRESSO_WATER = 250 // in ml
-
-//const val ESPRESSO_MILK = 0 // in ml
 const val ESPRESSO_BEANS = 16 //in grams
 const val ESPRESSO_COST = 4 // in dollars
 
 // latte needed resources
-
 const val LATTE_WATER = 350
 const val LATTE_MILK = 75
 const val LATTE_BEANS = 20
 const val LATTE_COST = 7
-// cappuccino needed resources
 
+// cappuccino needed resources
 const val CAPPUCCINO_WATER = 200
 const val CAPPUCCINO_MILK = 100
 const val CAPPUCCINO_BEANS = 12
@@ -28,8 +25,6 @@ enum class CoffeeMachineState {
     WAITING_ACTION,
     CHOOSING_COFFEE_TYPE,
     FILLING,
-    TAKING_MONEY_AWAY,
-    CHECK_REMAINING,
     STOPPED;
 }
 
@@ -82,12 +77,16 @@ class CoffeeMachine {
 
                     }
                     "exit" -> {
-                        //this line is not necessary, but just to make the code more formal, I made this state
+                        // This line is not necessary, but just to make the code more formal, I made this state and put here
                         machineState = CoffeeMachineState.STOPPED
                         exitProcess(0)
                     }
                 }
             }
+            //* Each option calls mainMenu() because after making the coffee, there's nothing to do,
+            // so they call mainMenu, the loop in main() will ask again for an input and then the machine
+            // will run another operation.*/
+
             // Third state of the machine
             CoffeeMachineState.CHOOSING_COFFEE_TYPE -> {
                 when (input) {
@@ -116,10 +115,10 @@ class CoffeeMachine {
             CoffeeMachineState.FILLING -> {
                 // THIS PART OF THE PROGRAM VERIFIES IF THE MUTABLE LIST HAS AT LEAST ONE
                 // ELEMENT. IF NOT, THE FLOW GOES FORWARD*/
-
                 fillMachineMenu()
                 fillMachine(input.toInt())
             }
+            else -> println("FATAL ERROR")
         }
     } // End of runMachine()
 
@@ -227,12 +226,6 @@ class CoffeeMachine {
             amountOfDisposableCups -= 1
             amountOfMoney += CAPPUCCINO_COST
         }
-    }
-
-    private fun getMachineState(stage: String) {
-        println("Got into the $stage stage ")
-        println("Current machine state: $machineState")
-        println("Filling resources counter size: $fillingResourcesCounter")
     }
 }
 
