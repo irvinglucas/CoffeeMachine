@@ -24,4 +24,6 @@ This project was a way to put in practice almost everything I've been learning s
 * enums
 * Code conventions (a lot of them actually)
 
+### To check this code, access the code here: [Main.kt](https://github.com/irvinglucas/CoffeeMachine/blob/master/Coffee%20Machine/task/src/machine/Main.kt)
+
 # And that's it! :)
